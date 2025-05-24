@@ -1,11 +1,11 @@
-@AoTMinimalApi_HostAddress = http://localhost:5095
+@HostAddress = http://localhost:5095
 
-GET {{AoTMinimalApi_HostAddress}}/todos/
+GET {{HostAddress}}/todos/
 Accept: application/json
 
 ###
 
-GET {{AoTMinimalApi_HostAddress}}/todos/1
+GET {{HostAddress}}/todos/1
 Accept: application/json
 
 ###
