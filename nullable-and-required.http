@@ -1,0 +1,61 @@
+
+# AoT Minimal API host address
+# @HostAddress = http://localhost:5095
+
+# Minimal API host address
+# @HostAddress = http://localhost:5052
+
+# Controllers host address
+@HostAddress = http://localhost:5197
+
+### Test /value with no parameter
+GET {{HostAddress}}/value
+
+### Test /value with empty parameter
+GET {{HostAddress}}/value?param=
+
+### Test /value-required with no parameter
+GET {{HostAddress}}/value-required
+
+### Test /value-required with empty parameter
+GET {{HostAddress}}/value-required?param=
+
+### Test /value-nullable with no parameter
+GET {{HostAddress}}/value-nullable
+
+### Test /value-nullable with empty parameter
+GET {{HostAddress}}/value-nullable?param=
+
+### Test /value-nullable-required with no parameter
+GET {{HostAddress}}/value-nullable-required
+
+### Test /value-nullable-required with empty parameter
+GET {{HostAddress}}/value-nullable-required?param=
+
+##############################
+# ref
+##############################
+
+### Test /ref with no parameter
+GET {{HostAddress}}/ref
+
+### Test /ref with empty parameter
+GET {{HostAddress}}/ref?param=
+
+### Test /ref-required with no parameter
+GET {{HostAddress}}/ref-required
+
+### Test /ref-required with empty parameter
+GET {{HostAddress}}/ref-required?param=
+
+### Test /ref-nullable with no parameter
+GET {{HostAddress}}/ref-nullable
+
+### Test /ref-nullable with empty parameter
+GET {{HostAddress}}/ref-nullable?param=
+
+### Test /ref-nullable-required with no parameter
+GET {{HostAddress}}/ref-nullable-required
+
+### Test /ref-nullable-required with empty parameter
+GET {{HostAddress}}/ref-nullable-required?param=
